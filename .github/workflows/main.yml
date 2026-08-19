@@ -22,3 +22,11 @@ jobs:
         env:
           VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API }}
         run: npm run build
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KONG7394 }} # Sesuaikan nama secret Anda
+          projectId: nama-project-firebase-anda # Ganti dengan ID Project Firebase Anda
+          channelId: live
