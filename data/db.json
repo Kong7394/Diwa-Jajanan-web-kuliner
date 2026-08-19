@@ -1,0 +1,648 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Semua",
+      "isActive": true
+    },
+    {
+      "id": "cat-2",
+      "name": "Jajanan",
+      "isActive": true
+    },
+    {
+      "id": "cat-3",
+      "name": "Gorengan",
+      "isActive": true
+    },
+    {
+      "id": "cat-4",
+      "name": "Makanan",
+      "isActive": true
+    },
+    {
+      "id": "cat-5",
+      "name": "Minuman",
+      "isActive": true
+    },
+    {
+      "id": "cat-6",
+      "name": "Paket",
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Dimsum Goreng Keju Lumer",
+      "description": "Dimsum goreng renyah dengan isian daging gurih dan lelehan keju lumer melimpah.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-09-1d36c165-0b58-4002-8b55-5cd257f3947d.jpg",
+      "categoryId": "cat-2",
+      "basePrice": 15000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Dimsum Gokel (3 pcs)",
+          "price": 15000
+        },
+        {
+          "id": "v2",
+          "name": "Dimsum Gokel (4 pcs)",
+          "price": 20000
+        },
+        {
+          "id": "v3",
+          "name": "Dimsum Gokel (5 pcs)",
+          "price": 25000
+        },
+        {
+          "id": "v4",
+          "name": "Dimsum Jando (3 pcs)",
+          "price": 15000
+        },
+        {
+          "id": "v5",
+          "name": "Dimsum Jando (4 pcs)",
+          "price": 20000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": true
+    },
+    {
+      "id": "prod-2",
+      "name": "Mie Ayam",
+      "description": "Mie ayam kenyal khas Diwa Jajanan dengan racikan bumbu spesial dan topping ayam manis gurih.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-09-29bf1a78-5c94-4c75-a34c-9f1d779f2ca0.jpg",
+      "categoryId": "cat-4",
+      "basePrice": 11000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Original",
+          "price": 11000
+        },
+        {
+          "id": "v2",
+          "name": "Komplit",
+          "price": 16000
+        },
+        {
+          "id": "v3",
+          "name": "Ceker",
+          "price": 13000
+        },
+        {
+          "id": "v4",
+          "name": "Bakso",
+          "price": 13000
+        },
+        {
+          "id": "v5",
+          "name": "Pangsit Basah",
+          "price": 13000
+        },
+        {
+          "id": "v6",
+          "name": "Pangsit Kering",
+          "price": 13000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": true
+    },
+    {
+      "id": "prod-3",
+      "name": "Basreng",
+      "description": "Bakso goreng irisan tipis renyah bertabur bumbu cabai asli dan wangi daun jeruk pedas nampol.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-09-0e7aeee5-0010-4599-87a1-81945981ee55.jpg",
+      "categoryId": "cat-2",
+      "basePrice": 10000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Original",
+          "price": 10000
+        },
+        {
+          "id": "v2",
+          "name": "Chili oil",
+          "price": 10000
+        },
+        {
+          "id": "v3",
+          "name": "Mix Tempura",
+          "price": 10000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": true
+    },
+    {
+      "id": "prod-4",
+      "name": "Mie Jebew",
+      "description": "Mie pedas ala Diwa Jajanan dengan kuah/bumbu minyak cabai rahasia, bikin nagih di setiap gigitan.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-10-17f67c21-bcf8-4e34-989f-9ecb94676c46.jpg",
+      "categoryId": "cat-4",
+      "basePrice": 11000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Original",
+          "price": 11000
+        },
+        {
+          "id": "v2",
+          "name": "Pangsit Basah",
+          "price": 12000
+        },
+        {
+          "id": "v3",
+          "name": "Pangsit Kering",
+          "price": 12000
+        },
+        {
+          "id": "v4",
+          "name": "Beaf",
+          "price": 12000
+        },
+        {
+          "id": "v5",
+          "name": "Sosis",
+          "price": 12000
+        },
+        {
+          "id": "v6",
+          "name": "Telor Ceplok",
+          "price": 13000
+        },
+        {
+          "id": "v7",
+          "name": "Komplit",
+          "price": 15000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": true
+    },
+    {
+      "id": "prod-5",
+      "name": "Pangsit",
+      "description": "Pangsit olahan daging ayam empuk disajikan goreng renyah atau kuah hangat gurih.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-10-4c0fe0d1-f2f2-4eb2-8989-f2d54ec95090.jpg",
+      "categoryId": "cat-3",
+      "basePrice": 10000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Chili Oil",
+          "price": 10000
+        },
+        {
+          "id": "v2",
+          "name": "Kuah Chili Oil",
+          "price": 12000
+        },
+        {
+          "id": "v3",
+          "name": "Isi Keju Chili Oil",
+          "price": 12000
+        },
+        {
+          "id": "v4",
+          "name": "Goreng",
+          "price": 10000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-6",
+      "name": "Pisang",
+      "description": "Pisang manis legit dibakar bertabur keju parut melimpah dan susu kental manis cokelat.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-10-ee14c690-790a-4098-8ae1-5e957a35b4ab.jpg",
+      "categoryId": "cat-3",
+      "basePrice": 10000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Bakar Keju",
+          "price": 10000
+        },
+        {
+          "id": "v2",
+          "name": "Bakar Cokelat",
+          "price": 10000
+        },
+        {
+          "id": "v3",
+          "name": "Bakar Cokelat & Keju",
+          "price": 12000
+        },
+        {
+          "id": "v4",
+          "name": "Pisang Cokelat Lumer",
+          "price": 10000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": true
+    },
+    {
+      "id": "prod-7",
+      "name": "Ceker Mercon",
+      "description": "Ceker ayam empuk tanpa tulang disiram bumbu rica mercon pedas manis mantap.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-10-8185c813-3205-48e0-a137-a95ec2fd4410.jpg",
+      "categoryId": "cat-2",
+      "basePrice": 12000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Ceker Tanpa Tulang",
+          "price": 12000
+        },
+        {
+          "id": "v2",
+          "name": "Ceker Bertulang",
+          "price": 12000
+        },
+        {
+          "id": "v3",
+          "name": "Ceker Tanpa Tulang X Bakso",
+          "price": 15000
+        },
+        {
+          "id": "v4",
+          "name": "Bakso Mercon",
+          "price": 10000
+        },
+        {
+          "id": "v5",
+          "name": "Tulang Mercon",
+          "price": 10000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-8",
+      "name": "Bakso Aci",
+      "description": "Bakso aci kenyal isi daging dengan cuanki lidah, pilus cikur, dan kuah rempah pedas mantap.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-10-699edb40-2538-4e89-a92c-bc483f2b8885.jpg",
+      "categoryId": "cat-4",
+      "basePrice": 10000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Original",
+          "price": 10000
+        },
+        {
+          "id": "v2",
+          "name": "Ceker",
+          "price": 12000
+        },
+        {
+          "id": "v3",
+          "name": "Tulang",
+          "price": 12000
+        },
+        {
+          "id": "v4",
+          "name": "Isi Keju",
+          "price": 12000
+        },
+        {
+          "id": "v5",
+          "name": "Komplit",
+          "price": 15000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": true
+    },
+    {
+      "id": "prod-9",
+      "name": "Roti Bakar",
+      "description": "Roti bakar empuk dipanggang mentega dengan aneka isian topping melimpah.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-10-6f733fa7-153f-488d-8912-cd2e431c7d8a.jpg",
+      "categoryId": "cat-2",
+      "basePrice": 10000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Cokelat & Keju",
+          "price": 12000
+        },
+        {
+          "id": "v2",
+          "name": "Cokelat",
+          "price": 10000
+        },
+        {
+          "id": "v3",
+          "name": "Keju",
+          "price": 10000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-10",
+      "name": "Martabak Telor",
+      "description": "Martabak telor olahan daging cincang dan daun bawang segar disajikan dengan kuah cuka gurih.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-10-73acf6af-f0ce-4210-a41e-434c0204d20a.jpg",
+      "categoryId": "cat-3",
+      "basePrice": 7000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Mini",
+          "price": 7000
+        },
+        {
+          "id": "v2",
+          "name": "Jumbo",
+          "price": 12000
+        },
+        {
+          "id": "v3",
+          "name": "Mix Tempura",
+          "price": 15000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-11",
+      "name": "Aneka Jus Buah Segar",
+      "description": "Jus buah asli kaya vitamin diblend dingin dengan gula murni tanpa pemanis buatan.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-10-0b8ad90d-905e-4512-9080-adec0931a5ef.jpg",
+      "categoryId": "cat-5",
+      "basePrice": 10000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Jus Mangga",
+          "price": 10000
+        },
+        {
+          "id": "v2",
+          "name": "Jus Alpukat",
+          "price": 12000
+        },
+        {
+          "id": "v3",
+          "name": "Jus Jambu Biji",
+          "price": 10000
+        },
+        {
+          "id": "v4",
+          "name": "Jus Buah Naga",
+          "price": 10000
+        },
+        {
+          "id": "v5",
+          "name": "Jus Nanas",
+          "price": 10000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": true
+    },
+    {
+      "id": "prod-12",
+      "name": "Es Teh Manis Segar",
+      "description": "Es teh manis segar pelepas dahaga dari racikan daun teh melati harum.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-10-70f4225b-1c7a-4f6c-a653-af707ef5b1e7.jpg",
+      "categoryId": "cat-5",
+      "basePrice": 5000,
+      "isAvailable": true,
+      "isBestSeller": true
+    },
+    {
+      "id": "prod-13",
+      "name": "Es Jeruk Peras Asli",
+      "description": "Jeruk peras manis alami penuh sensasi segar vitamin C disajikan dingin.",
+      "imageUrl": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=600&auto=format&fit=crop&q=80",
+      "categoryId": "cat-5",
+      "basePrice": 5000,
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-14",
+      "name": "Tea Jus Dingin",
+      "description": "Minuman Tea Jus manis dingin instan yang pas menemani santap jajanan pedas.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-10-1552694c-6961-4a1d-9d94-21e9c0ea049e.jpg",
+      "categoryId": "cat-5",
+      "basePrice": 3000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Rasa Gula Batu",
+          "price": 3000
+        },
+        {
+          "id": "v2",
+          "name": "Rasa Melati",
+          "price": 3000
+        },
+        {
+          "id": "v3",
+          "name": "Rasa Lemon",
+          "price": 3000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-15",
+      "name": "Nutrisari Es Segar",
+      "description": "Minuman es Nutrisari dengan aneka pilihan rasa buah kaya akan nutrisi dan vitamin.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-11-3fceef30-14e3-45a8-a25e-bfa56b00c9a8.jpg",
+      "categoryId": "cat-5",
+      "basePrice": 4000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Jeruk Peras",
+          "price": 4000
+        },
+        {
+          "id": "v2",
+          "name": "Mangga Gandaria",
+          "price": 4000
+        },
+        {
+          "id": "v3",
+          "name": "Sweet Guava",
+          "price": 4000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-16",
+      "name": "Es Good Day",
+      "description": "Kopi instan Good Day dingin nikmat bertabur es serut dan foam creamy.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-11-d01e9d46-9510-49c9-a9aa-69f99e2311ab.jpg",
+      "categoryId": "cat-5",
+      "basePrice": 5000,
+      "variants": [],
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-17",
+      "name": "Es White Kopi",
+      "description": "Kopi putih ramah lambung disajikan dingin mantap untuk melegakan dahaga.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-11-6725252f-9889-4f40-b77e-b192f21a0425.jpg",
+      "categoryId": "cat-5",
+      "basePrice": 5000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Luwak White Koffie",
+          "price": 5000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-18",
+      "name": "Es Susu Kental Manis",
+      "description": "Susu kental manis gurih legit disajikan dingin segar.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-11-808e2393-2fdd-467d-a25f-5482abfe48d3.jpg",
+      "categoryId": "cat-5",
+      "basePrice": 5000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Susu Putih",
+          "price": 5000
+        },
+        {
+          "id": "v2",
+          "name": "Susu Cokelat",
+          "price": 5000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-19",
+      "name": "Kopi Kapal Api",
+      "description": "Kopi hitam mantap kental aromatik khas Kapal Api.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-11-05f666c2-2933-4a09-8a90-b3969c892c96.jpg",
+      "categoryId": "cat-5",
+      "basePrice": 5000,
+      "variants": [],
+      "isAvailable": true,
+      "isBestSeller": false
+    },
+    {
+      "id": "prod-20",
+      "name": "Es Susu Milo",
+      "description": "Susu cokelat Milo manis legit favorit anak dan dewasa disajikan dingin.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-11-d6c65ab1-f197-447d-9178-e97d1ee36e21.jpg",
+      "categoryId": "cat-5",
+      "basePrice": 5000,
+      "variants": [],
+      "isAvailable": true,
+      "isBestSeller": true
+    },
+    {
+      "id": "prod-21",
+      "name": "Good Day Friez Blend",
+      "description": "Kopi Good Day Friez dingin rasa mint segar dan manis creamy.",
+      "imageUrl": "https://cdn.phototourl.com/free/2026-08-11-1913f584-218d-4e93-ac9a-401206e984d6.jpg",
+      "categoryId": "cat-5",
+      "basePrice": 6000,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Good Day Friez Ice",
+          "price": 6000
+        }
+      ],
+      "isAvailable": true,
+      "isBestSeller": false
+    }
+  ],
+  "bankAccounts": [
+    {
+      "id": "bank-1",
+      "bankName": "BCA Syariah",
+      "accountNumber": "0440014421",
+      "accountHolder": "Puput Fauziah",
+      "isActive": true
+    }
+  ],
+  "promotions": [
+    {
+      "id": "promo-1",
+      "title": "PROMO SPESIAL MIE AYAM",
+      "productId": "prod-2",
+      "normalPrice": 
+      "promoPrice": 
+      "isActive": true
+    },
+    {
+      "id": "promo-2",
+      "title": "PROMO DIMSUM KEJU LUMER",
+      "productId": "prod-1",
+      "normalPrice":
+      "promoPrice":
+      "isActive": true
+    }
+  ],
+  "settings": {
+    "storeName": "Diwa Jajanan",
+    "description": "Jajanan enak untuk menemani hari Anda.",
+    "whatsappNumber": "6282117579041",
+    "address": "Kp Rawa Cangkudu RT 05 RW 04 Desa Dayeuh Kec Cileungsi Kab Bogor ( samping kawasan industri menara permai Cileungsi dekat Masjid Alfattaah)",
+    "openingHours": "13.00 - 21.00 WIB",
+    "googleMapsUrl": "https://maps.app.goo.gl/XnAAn7hkiV9V76rWA",
+    "shippingFee": 0
+  },
+  "orders": [
+    {
+      "id": "ord-1786611869839-8qu8",
+      "orderNumber": "DWJ-20260813-001",
+      "customerName": "Hghj",
+      "phone": "087542369",
+      "address": "Mnnbv",
+      "items": [
+        {
+          "productId": "prod-3",
+          "productName": "Basreng",
+          "variantName": "Original",
+          "quantity": 1,
+          "price": 10000,
+          "subtotal": 10000,
+          "notes": ""
+        }
+      ],
+      "subtotal": 10000,
+      "shippingCost": 10000,
+      "total": 20000,
+      "paymentMethod": "COD",
+      "paymentStatus": "BELUM_DIBAYAR",
+      "proofOfPaymentUrl": "",
+      "orderStatus": "MENUNGGU_KONFIRMASI",
+      "notes": "",
+      "createdAt": "2026-08-13T09:04:29.839Z",
+      "updatedAt": "2026-08-13T09:04:29.839Z"
+    }
+  ],
+  "adminPinHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+}
